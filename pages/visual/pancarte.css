@@ -1,0 +1,26 @@
+/* Mise en place de l'image */
+
+.ecran {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.center {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	font-family: Police1;
+}
+	
+#container, #containerreponse{
+	margin:2vh;
+}
+
+#affichage_reponse {
+	font-family: Police1;
+	display: inline-flex;
+	padding: 20px;
+}

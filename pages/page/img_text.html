@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quelle scène ?</title>
+  <link rel="stylesheet" href="../visual/img_text.css">
+</head>
+<body>
+  <div id="container2">
+    <select name="Manche" id="manche-select">
+    </select>
+  </div>
+  <p class="enonce_regles">Pour chaque musique, trouver sa scène</p>
+  <p class="matching-help">Cliquez sur une image puis sur un son (ou l’inverse) pour les relier. Cliquez sur le petit × sur une ligne pour annuler un lien.</p>
+  <div class="matching-board">
+    <section class="matching-column">
+      <h2>Images</h2>
+      <div id="imagesToDrop"></div>
+    </section>
+    <section class="matching-column">
+      <h2>Texts</h2>
+      <div id="textsToLink"></div>
+    </section>
+    <svg id="linkLines" aria-label="Connections between images and imgs"></svg>
+  </div>
+  <div class="matching-actions">
+    <button class="btn" id="afficher_rep" type="button" onclick="resultat_final()">Réponses</button>
+    <button class="btn" id="reset_matches" type="button" onclick="resetMatches()">Réinitialiser</button>
+  </div>
+  <script type="module" src="../../assets/main.js"></script>
+  <script src="../game/img_text.js"></script>
+</body>
+</html>

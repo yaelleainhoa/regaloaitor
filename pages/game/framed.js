@@ -1,13 +1,13 @@
 
 
 manches = []
-let manchesNb = 13
+let manchesNb = 9
 for(let i =0; i<manchesNb; i++)
 {
 	let currentManche = [];
-	for(let j = 0; j < 4; j++)
+	for(let j = 0; j < 5; j++)
 	{
-		currentManche.push("../../assets/img/framed/manche"+String(i+1)+"-indice"+String(j+1)+".png")
+		currentManche.push("../../assets/img/framed/manche"+String(i)+"-indice"+String(j)+".png")
 	}
 	manches.push(currentManche)
 }
@@ -27,14 +27,7 @@ document.getElementById("manche-select").addEventListener
 	console.log(selectedValue)
 	console.log("selected : "+selectedValue)
 	mancheActuelle = selectedValue 
-	// if (selectedValue==12) {
-	// 	document.getElementById("image").setAttribute("src", "../../assets/img/framed/rules.jpg");	}
-
-	// if (selectedValue!=12) {
-	// 	console.log("here");
-	document.getElementById("image").setAttribute("src", manches[mancheActuelle][0]) ;
-	// }
-	
+	document.getElementById("image").setAttribute("src", manches[mancheActuelle][0]) ;	
 	}
 )
 
@@ -42,16 +35,5 @@ function Afficher_image(id) {
 	var imgIndex = id-1
 
 	document.getElementById("image").setAttribute("src", manches[mancheActuelle][imgIndex]) ;
-
-	// if(mancheActuelle!=12)
-	// {
-	// 	document.getElementById("image").setAttribute("src", manches[mancheActuelle][imgIndex]) ;
-	// }
-
-	// else {
-		
-	// 	document.getElementById("image").setAttribute("src", "../../assets/img/framed/rules.jpg") ;
-	
-	// }
 }
 

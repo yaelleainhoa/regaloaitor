@@ -1,159 +1,40 @@
 var questions_reponses = [
-	["Décathlon - Dans quelle ville se trouve le siège social ?", 
-	[
-		"Villeneuve d'Ascq",
-		"Bayonne",
-		"Tourcoing",
-		"Marc en Baroeul"
-	]],
-	["Décathlon - Quelle est la marque préférée de Central Cee ?", 
-		[
-			"Quechua",
-			"Prada",
-			"Dior",
-			"Kalenji"
-	]],
-	["Cuisine - Quelle est la spécialité de Kevin dans The Office ?", 
-		[
-			"Chili",
-			"Bolognaise",
-			"Cheesecake",
-			"Tacos"
-	]],
-	["Cuisine - De quel dessert Bree essaie de voler la recette chez Katherine ?", 
-		[
-			"Tarte au citron meringuée",
-			"Gâteau renversé à l'ananas",
-			"Muffins aux myrtilles",
-			"Cheesecake à la fraise"
-	]],
-	["Cuisine - Quel est le plat qu'aime le - Luffy selon Oda ?", 
-		[
-			"Tarte aux cerises",
-			"Salade",
-			"Gigot d'agneau",
-			"Prune séchée"
-	]],
-	["Cuisine - Que mangent Chandler et Rachel dans un couloir ?", 
-		[
-			"Cheesecake",
-			"Pizza",
-			"Mac and Cheese",
-			"Diplomate"
-	]],
-	["LOL - Qui est présent dans LOL et dans LOL ?", 
-		[
-			"Pierre Niney",
-			"Eric Judor",
-			"Jinx",
-			"Vi"
-	]],
-	["LOL - Quel excellent acteur de la bande à Fifi a terminé 3e de la 1ère saison de LOL qui rit sort ?", 
-		[
-			"Tarek Boudali",
-			"Gérard Jugnot",
-			"Philippe Lacheau (fifi)",
-			"Julien Arruti"
-	]],
-	["LOL - Dans quelle ville partent en voyage scolaire Lola et ses copains dans le film LOL ?", 
-		[
-			"Londres",
-			"Barcelone",
-			"Berlin",
-			"New York"
-	]],
-	["LOL - Que signifie l'acronyme LOL dans le sens MDR ?", 
-		[
-			"Laughing Out Loud",
-			"Loose Our Lord",
-			"Lost Our Laugh",
-			"Love Our Lambs"
-	]],
-	["LOL - Qui joue le rôle de Lola dans LOL USA ?", 
-		[
-			"Miley Cyrus",
-			"Demi Moore",
-			"Julia Robers",
-			"Taylor Swift"
-	]],
-	["Politique - Dans l'annonce pour trouver des collocs, quelle condition impose Meredith Grey ?", 
-		[
-			"Ne pas Voter Bush",
-			"Voter Obama",
-			"Etre démocrate",
-			"Voter aux élections"
-	]],
-	["Politique - Qui a joué dans Days of our Lives (comme Joey finalement) ?", 
-		[
-			"Donald Trump",
-			"Arnold Schwazenegger",
-			"Cynthia Nixon",
-			"Kal Penn"
-	]],
-	["Politique - Pour quelles élections se présente Bree à la fin de Desperate Housewives ?", 
-		[
-			"Chambre Basse des Représentants du Kentucky",
-			"Chambre Haute du corps législatif du Kentucky (Sénat)",
-			"Présidente de l'état du Kentucky",
-			"Présidente des USA rien que ça"
-	]],
-	["Politique - Avant d'aider Annalise Keating, d'où a été virée Olivia Pope ?", 
-		[
-			"Maison Blanche",
-			"Maire de Washington",
-			"Cour suprême",
-			"Respo com de l'ESBVA"
-	]],
-	["Sport - Quelle est l'équipe de basketball préférée de Joey Tribiani ?", 
-		[
-			"Les NY Knicks",
-			"Les Brooklyn Nets",
-			"Les Los Angles Lakers",
-			"Les Chicago Bulls"
-	]],
-	["Sport - De quel personnage de B99 l'acteur a joué en NFL ?", 
-		[
-			"Terry",
-			"Holt",
-			"Hitchcock",
-			"La Vautour (Vulture)"
-	]],
-	["Sport - Complète ce nom de film qu'on adorait petits: 'Joue la comme ...'", 
-		[
-			"Beckham",
-			"Mbappé",
-			"Pelé",
-			"Maradonna"
-	]],
-	["Sport - A combien de joueurs par équipe se joue le Boufbowl ?", 
-		[
-			"5",
-			"6",
-			"7",
-			"8"
-	]],
-	["Art - Dans quel endroit Moriarty vole les joyaux de la couronne dans Sherlock ?", 
-		[
-			"Jewel House",
-			"British Museum",
-			"Victoria & Albert Museum",
-			"Buckigham Palace"
-	]],
-	["Art - De quel medium est inspiré le nom de série 'Grey's anatomy' ?", 
-		[
-			"Livre",
-			"Chanson",
-			"Film",
-			"Photographie"
-	]],
-	["Art - Dans les romans tirés de la série Monk, de quel point de vue suit on l'histoire ?", 
-		[
-			"Natalie",
-			"Adrien Monk",
-			"La fille de Trudy",
-			"Stottlemeyer"
-	]]
+	["¿Cuál es el nombre real de Sylar antes de adoptar su apodo?",
+		["Gabriel Gray", "Gabriel Sullivan", "Arthur Gray", "Silas Gray"]],
+	["¿Cuál es el nombre de la empresa fachada para la que trabaja Noah Bennet en la primera temporada?",
+		["Primatech Paper", "Primatech Genetics", "Primatech Shipping", "Primatech Plastics"]],
+	["¿Qué cargo político ocupa Nathan Petrelli en el futuro alternativo de «Five Years Gone»?",
+		["Presidente de los Estados Unidos", "Senador de Nueva York", "Gobernador de Nueva York", "Director de La Compañía"]],
+	["¿Cómo se llama la organización rival de Primatech, fundada por Arthur Petrelli?",
+		["Pinehearst", "Level 5", "The Company", "Genesis Corp"]],
+	["¿En qué nivel de Primatech están confinados los humanos evolucionados más peligrosos?",
+		["Nivel 5", "Nivel 3", "El Sótano", "Celda Omega"]],
+	["¿Cuál era la profesión de Gabriel Gray antes de descubrir sus habilidades?",
+		["Relojero", "Profesor de física", "Vendedor de seguros", "Mecánico"]],
+	["¿Cuál es el nombre del virus diseñado para erradicar a los humanos con habilidades?",
+		["Virus Shanti", "Virus Prometheus", "Virus Genesis", "Virus Petrelli"]],
+	["¿Qué personaje puede localizar a cualquier persona en el mundo simplemente pensando en ella?",
+		["Molly Walker", "Maya Herrera", "Monica Dawson", "Micah Sanders"]],
+	["¿Quién es la primera víctima que se muestra en pantalla asesinada por Sylar en el episodio piloto?",
+		["Chandra Suresh", "Charlie Andrews", "Isaac Mendez", "El padre de Molly Walker"]],
+	["¿Qué poder posee Maya Herrera en la segunda temporada?",
+		["Generación de gas venenoso al llorar", "Manipulación del tiempo", "Control de la tecnología", "Intangibilidad"]],
+	["¿Cómo se llama la organización secreta fundada por 12 personas para contener a los humanos evolucionados?",
+		["La Compañía (The Company)", "El Sindicato", "Iniciativa Pinehearst", "Primatech Global"]],
+	["¿En qué ciudad reside originalmente la familia Bennet (Claire y Noah) al inicio de la serie?",
+		["Odessa, Texas", "Austin, Texas", "Dallas, Texas", "Houston, Texas"]],
+	["¿Qué significa «¡Yatta!», el grito de Hiro cuando logra algo?",
+		["¡Lo logré!", "¡Vamos!", "¡Cuidado!", "¡Es hora de irse!"]],
+	["¿A qué se dedicaba Peter Petrelli al comienzo de la serie?",
+		["Enfermero", "Policía", "Político", "Pintor"]],
+	["¿Qué icónico personaje interpretó Zachary Quinto (Sylar) en la película Star Trek de 2009?",
+		["Spock", "El Capitán Kirk", "Hikaru Sulu", "Dr. McCoy"]],
+	["¿En qué año se estrenó la serie Heroes?",
+		["2006", "2004", "2005", "2007"]],
+	["¿Qué actor interpretó a Kaito Nakamura, el padre de Hiro?",
+		["George Takei", "Pat Morita", "Ken Watanabe", "Hiroyuki Sanada"]]
 ];
+
 
 
 var id = 0;

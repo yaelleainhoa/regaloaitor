@@ -1,0 +1,17 @@
+export const games = [ 
+    ["sound_scene", "Quelle scène"],
+    ["img_text", "Quel party/candidat ?"], 
+    ["arc", "Quel arc ?"],
+    ["pancarte", "Quel slogan ?"],
+    ["capitale", "Quelle capitale ?"],
+    ["characters", "Persos OP breson"],
+    ["dcc", "duo carré ou cash"],
+    ["gd", "Gauche ou Droite"],
+    ["wheretaken", "Where Taken"],
+    // ["drag_and_drop", "Quelle saison ?"],
+    // ["frise_cinema", "Quel acteur ?"],
+    // ["guess_image", "Qui porte cette tenue ?"], 
+    // ["guess_flag_mix", "On s'emmêle les drapeaux"],
+    // ["guess_ia", "Quel enfant ?"],
+    // ["framed", "Framed like"], 
+]
